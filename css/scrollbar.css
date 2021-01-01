@@ -1,16 +1,16 @@
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
- ::-webkit-scrollbar-track {
-    opacity: 0;
+    width: 6px;
+    height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
     background: rgba(127, 127, 127, 0.6);
 }
+
+/* ::-webkit-scrollbar-button{
+    background-color: rgb(110, 110, 110);
+} */
+
 
 ::-webkit-scrollbar-thumb:horizontal:hover {
     background-color: rgb(110, 110, 110);
@@ -22,8 +22,4 @@
 
  ::-webkit-scrollbar-thumb:vertical:active {
     background: rgba(95, 91, 91, 1);
-}
-
- ::-webkit-scrollbar-corner {
-    background: none;
 }
